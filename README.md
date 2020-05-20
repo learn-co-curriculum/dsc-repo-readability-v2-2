@@ -16,13 +16,13 @@ For example, which chunk of text is more readable?
 
 **Example A:**
 
-![plaintext example](images/example-a_plaintext.png)
+![plaintext example](images/exercise_plaintext-example.png)
 
 **or**
 
 **Example B:**
 
-![markdown example](images/example-b_markdown.png)
+![rendered text example, showing effect of markdown](images/exercise_rendered-text-example.png)
 
 Example B! But what makes them different? The only difference between Examples A and B is that Example B adds __Markdown__ syntax to Example A. Here is what Example B looks like before it is rendered:
 
