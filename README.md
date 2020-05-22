@@ -111,10 +111,15 @@ print(this) # prints the zen of python
 print("something else")
 ```
 
-### Comments Example
+#### Comments Example
 
-[Lindsey, I want an example like this, but using our code]   [MIT example](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf)
+![comments example without comments](images/without-code-comments.png)
 
+If you were given the above bit of code, you could probably figure out what was happening... but you'd need to read through the code itself, and maybe run the cells and play with the code, in order to fully follow not only what the code does but also why the code was written.
+
+![comments example with comments](images/with-code-comments.png)
+
+If you were instead given this bit of code above, you'd be able to instantly read through exactly what each bit was doing. The comments also clearly show why the code is running. Note that this example uses both markdown cells and code comments, for different reasons! The markdown gives an overview and more of the rationale behind the code, while the code comments talk through what each piece of code actually does.
 
 ### Docstrings
 
@@ -136,11 +141,7 @@ with the code
 
 Docstrings help future employers AND our future selves to understand our code at a later date. It not only makes code more readable, but makes it more _usable_ in the future.
  
-### Docstrings Example
-
-If you wanted to make the below Example Function more readable, you could use BOTH comments and docstrings.
-
-#### Example Function:
+#### Docstrings Example
  
 ```python
 def summarize_dataframe(df):
@@ -153,7 +154,7 @@ def summarize_dataframe(df):
     return summary
 ```
 
-#### Example Function with comments and docstrings:
+If you wanted to make the above function more readable, you could use BOTH comments and docstrings:
 
 ```python
 def summarize_dataframe(df):
