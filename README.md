@@ -1,6 +1,8 @@
 # Readability
 
-So far you have gone from enhanced the ![repository image], then the content of the documents themselves[quick image], and now you examine how to best annotate the content itelf. 
+![overview screenshot][images/overview.png]
+
+So far you have gone from the repository level into the content of the documents themselves, and now it's time to examine how to best annotate the content itself. 
 
 To fully communicate the quality of your work it needs to be readable. What does readability mean? It means the most important information is highlighted and complex code is explained. Since your analysis is in a Jupyter notebook, you have the narrative of your analysis and important code all in the same place. You will use two different tools to enhance the readability of your notebook: markdown for the narrative and comments for the code. 
 
