@@ -1,6 +1,6 @@
 # Readability
 
-![overview screenshot][images/overview.png]
+![overview screenshot](images/overview.png)
 
 So far you have gone from the repository level into the content of the documents themselves, and now it's time to examine how to best annotate the content itself. 
 
