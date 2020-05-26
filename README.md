@@ -1,18 +1,23 @@
 # Readability
 
+## Introduction
+
 ![overview screenshot](images/overview.png)
 
 So far you have gone from the repository level into the content of the documents themselves, and now it's time to examine how to best annotate the content itself. 
 
-To fully communicate the quality of your work it needs to be readable. What does readability mean? It means the most important information is highlighted and complex code is explained. Since your analysis is in a Jupyter notebook, you have the narrative of your analysis and important code all in the same place. You will use two different tools to enhance the readability of your notebook: markdown for the narrative and comments for the code. 
+To fully communicate the quality of your work it needs to be readable. What does readability mean? It means the most important information is highlighted and complex code is explained. Since your analysis is in a Jupyter notebook, you have the narrative of your analysis and important code all in the same place. You will use two different tools to enhance the readability of your notebook: **markdown** for the narrative and **comments** for the code. 
 
-## Learning Goals:
+## Objectives
+
+You will be able to:
+
 - Use markdown to enhance the readability of text
 - Use comments to enhance the readability of code
 
 ## Markdown
 
-Markdown is a **plain text formatting syntax**, that allows you to format text quickly without needed to write in a text editor. Markdown allows you to quickly format plain text using special characters like asterisks, dashes, underscores, etc. Markdown enables you to create headers, lists, code blocks and more without lifting your fingers off your keyboard. 
+Markdown is a **plain text formatting syntax**, that allows you to format text quickly without the need to write in a text editor. Markdown allows you to quickly format plain text using special characters like asterisks, dashes, underscores, etc. Markdown enables you to create headers, lists, code blocks and more without lifting your fingers off your keyboard. 
 
 For example, which chunk of text is more readable?
 
@@ -38,7 +43,7 @@ My project aims to predict the sale price of houses.
 
 ### Headings example
 
-When you use text editing software like Microsoft Word or Google Docs, you use different level headings to create a consistent heirarchy of information in your documentation. H1 headings are the  highest level, like the title of the document, while H2 and H3 headings are lower in value. You denote a line is a heading by putting a hash mark next to the text, so the title in your analysis:
+When you use text editing software like Microsoft Word or Google Docs, you use different level headings to create a consistent hierarchy of information in your documentation. H1 headings are the  highest level, like the title of the document, while H2 and H3 headings are lower in value. You denote a line is a heading by putting a hash mark next to the text, so the title in your analysis:
 
 ![example text without markdown](images/title_without-markdown.png)
 
@@ -79,7 +84,7 @@ You can practice your understanding of markdown using the following exercise:
 
 Try updating the text in our messy repo to match the updated formatting.
 
-### Further Markdown Resources:
+### Further reading on Markdown 
 
  - [GitHub's Markdown Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
  - [Document design free ebook](https://pressbooks.bccampus.ca/technicalwriting/)
@@ -123,7 +128,7 @@ If you were instead given this bit of code above, you'd be able to instantly rea
 
 ### Docstrings
 
-Docstrings are multi-line comments that usually explain what a _function_, _class_, or _module_ is intended to do. Whenever you type `shift+tab` in a code cell and get the documentation? The documentation is populated by docstrings writen in the code itself. Examine [the source code for the Pandas groupby object](https://github.com/pandas-dev/pandas/blob/master/pandas/core/groupby/groupby.py#L1168) to see docstrings in action. 
+Docstrings are multi-line comments that usually explain what a _function_, _class_, or _module_ is intended to do. Whenever you type `shift+tab` in a code cell and get the documentation? The documentation is populated by docstrings written in the code itself. Examine [the source code for the Pandas groupby object](https://github.com/pandas-dev/pandas/blob/master/pandas/core/groupby/groupby.py#L1168) to see docstrings in action. 
 
 
 ```
@@ -179,8 +184,13 @@ def summarize_dataframe(df):
     return summary
 ```
 
-### Further reading on creating readable code:
+### Further Reading on Creating Readable Code
 
 - Ultimate guide for readable code: [Pep8 standards](https://www.python.org/dev/peps/pep-0008/)
 - If you want more information on docstring expectations look [here](https://www.python.org/dev/peps/pep-0257/)
- 
+
+## Summary
+
+Great, now that you learned more about markdown and code readability, let's put this theory into practice!
+
+
