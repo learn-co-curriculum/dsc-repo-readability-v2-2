@@ -65,7 +65,7 @@ You can practice your understanding of markdown using the following exercise:
 
 1) Examine the plaintext below:
 
-![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/images/exercise_plaintext-example.png)
+![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_plaintext-example.png)
 
 2) Now examine the rendered text below and find **4 examples** of markdown being used to enhance the readability of the text:
 
