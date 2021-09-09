@@ -2,11 +2,17 @@
 
 ## Introduction
 
+When a prospective employer looks at your GitHub repository they will read two things: your `README` and your notebook.
+
+Unfortunately, sometimes they see something like this:
+
 ![overview screenshot](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/overview.png)
 
-So far you have gone from the repository level into the content of the documents themselves, and now it's time to examine how to best annotate the content itself. 
+That notebook analysis may contain perfectly valid code, but it's not readable.
 
-To fully communicate the quality of your work it needs to be readable. What does readability mean? It means the most important information is highlighted and complex code is explained. Since your analysis is in a Jupyter notebook, you have the narrative of your analysis and important code all in the same place. You will use two different tools to enhance the readability of your notebook: **markdown** for the narrative and **comments** for the code. 
+To fully communicate the quality of your work it needs to be readable. What does readability mean? It means the most important information is highlighted and complex code is explained.
+
+Since your analysis is in a Jupyter notebook, you have the narrative of your analysis and important code all in the same place. You will use two different tools to enhance the readability of your notebook: **markdown** for the narrative and **comments** for the code. The same markdown techniques apply to your `README` as well.
 
 ## Objectives
 
