@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![overview screenshot](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/overview.png)
+![overview screenshot](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/overview.png)
 
 So far you have gone from the repository level into the content of the documents themselves, and now it's time to examine how to best annotate the content itself. 
 
@@ -23,13 +23,13 @@ For example, which chunk of text is more readable?
 
 **Example A:**
 
-![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_plaintext-example.png)
+![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/exercise_plaintext-example.png)
 
 **or**
 
 **Example B:**
 
-![rendered text example, showing effect of markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_rendered-text-example.png)
+![rendered text example, showing effect of markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/exercise_rendered-text-example.png)
 
 Example B! But what makes them different? The only difference between Examples A and B is that Example B adds __Markdown__ syntax to Example A. Here is what Example B looks like before it is rendered:
 
@@ -45,7 +45,7 @@ My project aims to predict the sale price of houses.
 
 When you use text editing software like Microsoft Word or Google Docs, you use different level headings to create a consistent hierarchy of information in your documentation. H1 headings are the  highest level, like the title of the document, while H2 and H3 headings are lower in value. You denote a line is a heading by putting a hash mark next to the text, so the title in your analysis:
 
-![example text without markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/title_without-markdown.png)
+![example text without markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/title_without-markdown.png)
 
 If you add one hash mark:
 
@@ -55,7 +55,7 @@ If you add one hash mark:
 
 The text becomes large and bold:
 
-![example text with markdown, a single hash to make a title](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/title_with-markdown.png)
+![example text with markdown, a single hash to make a title](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/title_with-markdown.png)
 
 The title of your analysis should have the highest level of header and your section headings, such as "Business Question" or "Data Understanding" should have H2 headings, etc. 
 
@@ -65,15 +65,15 @@ You can practice your understanding of markdown using the following exercise:
 
 1) Examine the plaintext below:
 
-![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_plaintext-example.png)
+![plaintext example](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/exercise_plaintext-example.png)
 
 2) Now examine the rendered text below and find **4 examples** of markdown being used to enhance the readability of the text:
 
-![rendered text example, showing effect of markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_rendered-text-example.png)
+![rendered text example, showing effect of markdown](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/exercise_rendered-text-example.png)
 
 3) Once you have identified four examples, look at the numbered image below to confirm your answers:
 
-![rendered text example, showing effect of markdown, now with numbers to point out changes](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/exercise_numbered_rendered-text-example.png)
+![rendered text example, showing effect of markdown, now with numbers to point out changes](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/exercise_numbered_rendered-text-example.png)
 
 4) Review the numbered answers listed below to confirm what was updated:
 
@@ -118,11 +118,11 @@ print("something else")
 
 #### Comments Example
 
-![comments example without comments](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/without-code-comments.png)
+![comments example without comments](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/without-code-comments.png)
 
 If you were given the above bit of code, you could probably figure out what was happening... but you'd need to read through the code itself, and maybe run the cells and play with the code, in order to fully follow not only what the code does but also why the code was written.
 
-![comments example with comments](https://raw.githubusercontent.com/learn-co-curriculum/dsc-postgrad-repo-readability/master/with-code-comments.png)
+![comments example with comments](https://raw.githubusercontent.com/learn-co-curriculum/dsc-repo-readability-v2-2/master/with-code-comments.png)
 
 If you were instead given this bit of code above, you'd be able to instantly read through exactly what each bit was doing. The comments also clearly show why the code is running. Note that this example uses both markdown cells and code comments, for different reasons! The markdown gives an overview and more of the rationale behind the code, while the code comments talk through what each piece of code actually does.
 
